@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #fff;
+  width: 1410px;
+  height: 100%;
+}
+
+.main-container {
+  background-color: #fff;
+  width: 1410px;
+  height: 100%;
+  margin-left: 30px;
+  box-shadow: 10px 0 10px 10px rgb(194, 194, 195);
+}
+
+.content {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: rgb(230, 197, 229);
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 1410px;
+  height: 50px;
+  background-color: #fff;
+}
+
+
+/********************
+
+NAVBAR STYLING
+
+*********************/
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: inherit;
+  height: inherit;
+  border-bottom: 1px solid rgb(173, 172, 172);
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.sections-button {
+  width: 105px;
+  height: 30px;
+  margin-left: -20px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 16px;
+  background-color: #fff;
+  font-weight: 700;
+  border: solid thin rgb(172, 172, 172);
+  box-shadow: 0 4px 50px -50px #CCCCCC;
+  border-radius: 3px;
+}
+
+.sections-button:hover {
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.nav-button {
+    width: 70px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.nav-button:hover {
+  background: rgb(241, 241, 241);
+  cursor: pointer;
+}
+
+.nyt-title:hover {
+  cursor: pointer;
+}
+
+.articles-read {
+  display: inline-block;
+  font-weight: 400;
+  margin-right: 8px;
+  color: #666;
+  font-size:  0.6875rem;
+}
+
+.nav-button-2 {
+  padding: 8px;
+  margin-right: 8px;
+  text-align: center;
+  background-color: #6288a5;
+  border: 1px solid #4d7b9f;
+  border-radius: 3px;
+  color: #fff;
+  font-family: franklin-normal-700, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav-button-2:hover {
+  cursor: pointer;
+}
+
+/*************************
+
+MAIN CONTENT
+
+**************************/
+.title-bar {
+  width: 100%;
+  background-color: rgb(131, 181, 217);
+}
+
+.article-content {
+  width: 100%;
+  background-color: rgb(242, 116, 116);
+}
+
+.extra-content {
+  width: 100%;
+  background-color: rgb(198, 237, 115);
+}
+
+footer {
+  width: 100%;
+  background: rgb(233, 209, 146);
+}
